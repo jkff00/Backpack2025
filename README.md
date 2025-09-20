@@ -1,5 +1,21 @@
 # Large-Scale LiDAR-Inertial Dataset for Degradation-Robust High-Precision Mapping
 
+## 📑 License
+
+This dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material  
+
+Under the following terms:
+
+- **Attribution (BY)** — you must give appropriate credit and cite our paper.  
+- **NonCommercial (NC)** — you may not use the material for commercial purposes.  
+- **ShareAlike (SA)** — if you remix, transform, or build upon the material, you must distribute your contributions under the same license.  
+
+👉 Full license text: [Creative Commons CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ## 🎥 Demo
 [![Watch the video](./images/abstract.png)](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)  
 👉 [Download high resolution video](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)
