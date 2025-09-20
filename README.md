@@ -5,7 +5,7 @@
 👉 [Download video](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)
 
 ### Dataset Structure
-
+```
 dataset_root/
 └─ sequences/
 ├─ seq01/
@@ -20,7 +20,7 @@ dataset_root/
 ├─ seq02/
 │ └─ ...
 └─ seq08/
-
+```
 ## 📦 Dataset Download
 
 The dataset is hosted on Google Drive.  
