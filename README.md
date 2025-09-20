@@ -60,5 +60,5 @@ p_h = Extrinsic_V2H * p_v;   // homogeneous coordinates
 
 // --- GPS lever arm (IMU → GPS) ---
 // GPS antenna position expressed in IMU/body frame
-p_gps = p_imu + R_WI * gpsLevelArm;
+p_gps = p_imu + R_IMU->World * gpsLevelArm;
 ```
