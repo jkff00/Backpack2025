@@ -2,7 +2,7 @@
 
 ## 🎥 Demo
 [![Watch the video](./images/abstract.png)](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)  
-👉 [Download video](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)
+👉 [Download high resolution video](https://github.com/CNITECH-CV-LAB/Backpack2025/releases/download/v1.0/ral-video-2k.mp4)
 
 ### Dataset Structure
 ```
@@ -36,3 +36,29 @@ The dataset is hosted on Google Drive.
 | Seq.6    | 1833.2     | 1791.8       | 87.5      | Underground tunnel | [Google Drive](https://drive.google.com/file/d/SEQ06_ID/view?usp=sharing) |
 | Seq.7    | 1505.4     | 1849.6       | 100.4     | Dense architecture, IO transitions | [Google Drive](https://drive.google.com/file/d/SEQ07_ID/view?usp=sharing) |
 | Seq.8    | 1307.8     | 1245.3       | 70.9      | Dense architecture, long corridor | [Google Drive](https://drive.google.com/file/d/SEQ08_ID/view?usp=sharing) |
+
+## ⚙️ Calibration Usage
+
+The `Calib.yaml` file contains parameters that need to be applied correctly in downstream algorithms.  
+Below we provide pseudo-code to illustrate their usage:
+
+```
+// --- Time offset correction (LiDAR ↔ IMU) ---
+// Align IMU timestamps to LiDAR time
+t_imu_aligned = t_imu_raw - time_offset_lidar_to_imu;
+
+
+// --- LiDAR → IMU transformation ---
+// Transform points from LiDAR frame to IMU frame
+p_imu = R_L2I * p_lidar + t_L2I;
+
+
+// --- Vertical LiDAR → Horizontal LiDAR transformation ---
+// Convert points from vertical LiDAR frame into horizontal LiDAR frame
+p_h = Extrinsic_V2H * p_v;   // homogeneous coordinates
+
+
+// --- GPS lever arm (IMU → GPS) ---
+// GPS antenna position expressed in IMU/body frame
+p_gps = p_imu + R_WI * gpsLevelArm;
+```
