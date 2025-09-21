@@ -45,7 +45,7 @@ The `Calib.yaml` file contains parameters that need to be applied correctly in d
 Below we provide pseudo-code to illustrate their usage:
 
 ```
-// --- Time offset correction (LiDAR ↔ IMU) ---
+// --- Time offset correction (LiDAR → IMU) ---
 // Align IMU timestamps to LiDAR time
 t_imu_aligned = t_imu_raw - time_offset_lidar_to_imu;
 
