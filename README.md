@@ -33,7 +33,7 @@ The dataset is hosted on Google Drive.
 | Seq.1    | 1561.8     | 1558.3       | 82.0      | Dense building cluster (indoor corridors) | [Google Drive](https://drive.google.com/uc?export=download&id=1s_sdhkQ7Y_fUqMUQd8Yc1hGOYbanCqgk) |
 | Seq.2    | 1279.0     | 1174.9       | 65.3      | Dense building cluster (outdoor loop) | [Google Drive](https://drive.google.com/uc?export=download&id=1vNJ7QucmaCt3UYMM0FhuytoF3hRyi9W0) |
 | Seq.3    | 1002.0     | 1626.6       | 88.7      | Multi-story, IO transitions | [Google Drive](https://drive.google.com/uc?export=download&id=15iB9_TfPDOtoSYKN5SMppgsoLocLWnAG) |
-| Seq.4    | 1764.3     | 1688.1       | 97.2      | Mountainous terrain | [Google Drive](https://drive.google.com/drive/folders/10yHw_eOWycX2a0OnMJBLyoy-yjc826Dt?usp=sharing) |
+| Seq.4    | 1764.3     | 1688.1       | 97.2      | Mountainous terrain | [Google Drive](https://drive.google.com/uc?export=download&id=1wt1Hg_dq_v_SuG_nxCySVBYz04A1DO1G) |
 | Seq.5    | 814.4      | 1101.6       | 62.0      | Multi-story tower | [Google Drive](https://drive.google.com/drive/folders/1xaCqjbXj2sNH95n96ffxfRvb3UWVtAcT?usp=sharing) |
 | Seq.6    | 1833.2     | 1791.8       | 87.5      | Underground tunnel | [Google Drive](https://drive.google.com/drive/folders/1vhj8Q3JxPpNxt2TsAX2YkaGjcZ-I1Uuz?usp=sharing) |
 | Seq.7    | 1505.4     | 1849.6       | 100.4     | Dense architecture, IO transitions | [Google Drive](https://drive.google.com/drive/folders/125LCBJGUaMmdgsdZeyWkj0_FLzLeJyxj?usp=sharing) |
