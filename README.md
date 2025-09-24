@@ -37,7 +37,7 @@ The dataset is hosted on Google Drive.
 | Seq.5    | 814.4      | 1101.6       | 62.0      | Multi-story tower | [Google Drive](https://drive.google.com/drive/folders/1xaCqjbXj2sNH95n96ffxfRvb3UWVtAcT?usp=sharing) |
 | Seq.6    | 1833.2     | 1791.8       | 87.5      | Underground tunnel | [Google Drive](https://drive.google.com/uc?export=download&id=1cc9NiGuSw6l3GZrjFXE_60leH6aZub6Q) |
 | Seq.7    | 1505.4     | 1849.6       | 100.4     | Dense architecture, IO transitions | [Google Drive](https://drive.google.com/uc?export=download&id=1wFSIUmP-7xjwmxupe5rbf9577l13sOpS) |
-| Seq.8    | 1307.8     | 1245.3       | 70.9      | Dense architecture, long corridor | [Google Drive](https://drive.google.com/drive/folders/1shiITpCrXfFCJXHbW1Tnt3Vusmg1c2M9?usp=sharing) |
+| Seq.8    | 1307.8     | 1245.3       | 70.9      | Dense architecture, long corridor | [Google Drive](https://drive.google.com/uc?export=download&id=1P_yzkisvwtwEX7qz3mopzr9WKRRi6p7h) |
 
 ## ⚙️ Calibration Usage
 
